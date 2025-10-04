@@ -1,0 +1,89 @@
+{
+  "app_settings": {
+    "title": "⏰ Countdown Timer App",
+    "server_port": 7862,
+    "server_name": "0.0.0.0",
+    "share": true,
+    "auto_refresh_interval": 1
+  },
+  "target_event": {
+    "date": "2025-10-10",
+    "time": "00:00:00",
+    "timezone": "local",
+    "event_name": "Special Day",
+    "celebration_message": "🎉 HAPPY BIRTHDAY! 🎉"
+  },
+  "display_settings": {
+    "countdown_format": "⏰ Time until {event_name}: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds",
+    "show_seconds": true,
+    "show_celebration_immediately": true,
+    "animation_speed": 1.0
+  },
+  "ui_theme": {
+    "primary_gradient": {
+      "start": "#667eea",
+      "end": "#764ba2"
+    },
+    "text_color": "#ffffff",
+    "background_opacity": 0.7,
+    "border_radius": "15px",
+    "font_sizes": {
+      "title": "24px",
+      "subtitle": "18px",
+      "body": "16px"
+    }
+  },
+  "placeholder_calendar": {
+    "background_color": "#f0f8ff",
+    "calendar_color": "white",
+    "header_color": "#ff6b6b",
+    "text_color": "#333333",
+    "ring_color": "#333333",
+    "date_font_size": 36,
+    "month_font_size": 16,
+    "width": 400,
+    "height": 300
+  },
+  "cake_animation": {
+    "cake_width": 200,
+    "cake_height": 120,
+    "candle_count": 5,
+    "layer_colors": ["#8B4513", "#D2691E", "#F4A460"],
+    "candle_color": "yellow",
+    "flame_color": "orange",
+    "knife_color": "silver",
+    "cut_line_color": "white",
+    "animation_frames": 21,
+    "confetti_count": 20,
+    "confetti_colors": ["red", "blue", "green", "yellow", "purple"]
+  },
+  "messages": {
+    "app_title": "⏰ Countdown Timer",
+    "app_subtitle": "Important date approaching!",
+    "app_description": "Keep an eye on the countdown - something special happens on October 10th! 📅",
+    "countdown_label": "⏰ Countdown Timer",
+    "display_label": "📅 Special Date",
+    "features_title": "📅 Event Features:",
+    "features_list": [
+      "**Real-time countdown** to October 10th",
+      "**Special display** when the date arrives",
+      "**Interactive interface** with live updates",
+      "**Mysterious content** revealed at the right time"
+    ],
+    "mystery_message": "*Something amazing will happen when the countdown reaches zero!* ✨",
+    "celebration_cake_message": "🎂 Happy Birthday! 🎂"
+  },
+  "console_messages": {
+    "startup": "⏰ Starting Countdown App...",
+    "target_date": "📅 Target date: October 10th, 2025",
+    "access_url": "🌟 Access the app at: http://localhost:{port}"
+  },
+  "advanced_settings": {
+    "enable_confetti": true,
+    "enable_cake_cutting": true,
+    "enable_sound": false,
+    "debug_mode": false,
+    "cache_images": true,
+    "preload_animations": false
+  }
+}
